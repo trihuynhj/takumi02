@@ -1,0 +1,19 @@
+html {
+    background-color: aliceblue;
+}
+
+.wrapper {
+    margin: 20px;
+    padding: 30px;
+    background-color: skyblue;
+}
+
+.title {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    border: 5px solid darkslategrey;
+    background-color: seashell;
+    font-size: 2em;
+    color: darkcyan;
+}

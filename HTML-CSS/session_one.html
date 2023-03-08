@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h2 class="title">4.2 Excelシートとテーブルの違い</h2>
+	<div>
+		<p id="p1" class="para">
+			<b>テーブル名をテーブル作成時に決める必要がある</b>
+			<br>
+			Excelのシート名はあまり気にせずに<em>「Sheet1」</em>のままにしておくことがありますが、テーブル名はテーブルを作成する際に決める必要があります。例えば、社員を登録するテーブルの場合は、<span>「employee」</span>という名前のテーブルにします。
+			
+		</p>
+
+		<p id="p2" class="para">
+			<b>テーブルの列名をテーブル作成時に決める必要がある</b>
+			<br>
+			Excelの列名は<em>「A」</em>、<em>「B」</em>、<em>「C」</em>のようなものが自動的に決められていますが、テーブルの列はテーブルを作成する際に何が格納されるのかを決める必要があります。例えば、社員テーブル（employee）に登録するデータの内訳を「社員番号」と<em>「名字」</em>、<em>「名前」</em>にする場合、<em>「emp_no」</em>、<em>「last_name」</em>、<em>「first_name」</em>という3つの列を設定する必要があります。また、列には<em>「データ型」</em>を指定しなければなりません。データ型については後ほど解説します。
+		</p>
+
+		<p id="p3" class="para">
+			<b>テーブルには行（レコード）の番号や順序は存在しない</b>
+			<br>
+			Excelには<em>「1」</em>、<em>「2」</em>、<em>「3」</em>といった行番号が順に振られています。テーブルにはこのような行番号は存在しません。つまり、テーブルに格納されるレコードは順序を持ちません。つまり、登録した際に、<em>「001：山田太郎」</em>、<em>「002：佐藤二郎」</em>の順に登録したとしても、後で表示した時には<em>「002：佐藤」</em>、<em>「001：山田」</em>の順に表示される可能性があります。これでは、使い勝手が悪いと思われるかもしれませんが、そんなことはありません。実は一覧表を表示するSQLでどの列で表示順を決定したいかを指定すれば、思い通りの表示順にできるからです。この表示順の指定の仕方については、<em>「SQLマスター」</em>の講義で解説します。
+	</p>
+
+		<p id="p4" class="para">
+			<b>その他、Excelシートとテーブルの違い</b>
+			<br>
+			Excelシートにはグラフや図形を挿入することができます。テーブルにはそのようなものを挿入することができません。また、文字に色を付けたりフォントの大きさを指定する機能もテーブルにはありません。つまり、テーブルのある列のある行には、ある特定のデータがひとつだけ格納されます。特定のデータとは、文字列、数値、日付などの具体的なデータです。
+		</p>
+	</div>
+
+	<div class="super">
+		<h3 class="top">Hello World!</h3>
+		<div class="middle">I'm a dog.</div>
+		<div class="bottom">I'm a cat.</div>
+	</div>
+
+    <div>
+        <a href="https://freeimage.host/i/HWAfnUX"><img src="https://iili.io/HWAfnUX.md.png" alt="HWAfnUX.md.png" border="0"></a>
+    </div>
+
+</body>
+</html>

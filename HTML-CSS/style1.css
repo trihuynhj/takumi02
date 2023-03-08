@@ -1,0 +1,29 @@
+html {
+    font-family: arial, sans-serif;
+    position: relative;
+    min-height: 100%;
+}
+
+h1 {
+    border-left: 10px solid darkblue;
+}
+  
+table, td, th {
+    border: 1px solid black;
+    text-align: left;
+}
+
+.sub-paragraph {
+    padding-left: 50px;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    border-top: 2px solid gray;
+}

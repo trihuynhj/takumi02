@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+	<div class="wrapper">
+        <div class="title">アンケート</div>
+        <p>講義についてのアンケート</p>
+        
+        <form action="https://vti.com.vn" method="post" target="_blank">
+            <div class="question q1">
+                <label for="name">氏名</label><br>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div class="question q2">
+                <label for="address">住所</label><br>
+                <input type="text" id="address" name="address">
+            </div>
+            
+            <div class="question q3">
+                <label for="sex">性別</label><br>
+                <input type="radio" id="sexChoice1" name="sex" value="male">
+                <label for="sexChoice1">男</label>
+                <input type="radio" id="sexChoice2" name="sex" value="female">
+                <label for="sexChoice2">女</label>
+            </div>
+
+            <div class="question q4">
+                <label for="curriculum">講座名</label><br>
+                <select name="curriculum" id="curriculum">
+                    <option value="database">データベース基礎</option>
+                    <option value="java">Java基礎</option>
+                </select>
+            </div>
+        
+            <div class="question q5">
+                <label for="impressions">感想</label><br>
+                <textarea name="impressions" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <input type="submit" value="送信">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body {
+	background-color: darkgrey; 
+}
+
+.title {
+    border-left: 10px solid darkslateblue;
+}
+
+.para {
+	color: blueviolet;
+}
+
+#p1 {
+	color: blue;
+}
+
+#p2 {
+	color: yellow;
+}
+
+#p3 {
+	color: green;
+}
+
+.super {
+	background-color: gold;
+	padding: 20px;
+	border: 10px solid darkblue;
+}
+
+.top {
+	background-color: green;
+	color: whitesmoke;
+}
+
+.middle {
+	background-color: skyblue;
+}
+
+.bottom {
+	background-color: red; 
+}
